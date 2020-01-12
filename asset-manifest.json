@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "gurch101.github.io/pianojs/static/css/main.75a3f52f.chunk.css",
+    "main.js": "gurch101.github.io/pianojs/static/js/main.6ad3e247.chunk.js",
+    "main.js.map": "gurch101.github.io/pianojs/static/js/main.6ad3e247.chunk.js.map",
+    "runtime-main.js": "gurch101.github.io/pianojs/static/js/runtime-main.ad8ba04a.js",
+    "runtime-main.js.map": "gurch101.github.io/pianojs/static/js/runtime-main.ad8ba04a.js.map",
+    "static/css/2.96479aa2.chunk.css": "gurch101.github.io/pianojs/static/css/2.96479aa2.chunk.css",
+    "static/js/2.49332b29.chunk.js": "gurch101.github.io/pianojs/static/js/2.49332b29.chunk.js",
+    "static/js/2.49332b29.chunk.js.map": "gurch101.github.io/pianojs/static/js/2.49332b29.chunk.js.map",
+    "index.html": "gurch101.github.io/pianojs/index.html",
+    "precache-manifest.e091b774d758b6464722fc42018d429f.js": "gurch101.github.io/pianojs/precache-manifest.e091b774d758b6464722fc42018d429f.js",
+    "service-worker.js": "gurch101.github.io/pianojs/service-worker.js",
+    "static/css/2.96479aa2.chunk.css.map": "gurch101.github.io/pianojs/static/css/2.96479aa2.chunk.css.map",
+    "static/css/main.75a3f52f.chunk.css.map": "gurch101.github.io/pianojs/static/css/main.75a3f52f.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad8ba04a.js",
+    "static/css/2.96479aa2.chunk.css",
+    "static/js/2.49332b29.chunk.js",
+    "static/css/main.75a3f52f.chunk.css",
+    "static/js/main.6ad3e247.chunk.js"
+  ]
+}
