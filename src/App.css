@@ -49,6 +49,16 @@ body {
   margin-left: -8px;
 }
 
+@media (max-width: 1024px) {
+  .white-key {
+    width: 18px;
+  }
+
+  .black-key {
+    width: 10px;
+  }
+}
+
 .mr1 {
   margin-right: 10px;
 }

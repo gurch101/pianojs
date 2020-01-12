@@ -3,6 +3,7 @@ import { Midi } from "@tonejs/midi";
 import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
 import "./App.css";
+import wheresmymind from "./wheresmymind.mid";
 const Soundfont = require("soundfont-player");
 
 const NUM_OCTAVES = 7;
@@ -49,7 +50,7 @@ class App extends React.Component {
     notes: []
   };
   async componentDidMount() {
-    const midi = await Midi.fromUrl("/wheresmymind.mid");
+    const midi = await Midi.fromUrl(wheresmymind);
     const notes = [...midi.tracks[0].notes, ...(midi.tracks[1] ? midi.tracks[1].notes : [])];
     notes.sort((a, b) => (a.ticks - b.ticks === 0 ? a.durationTicks - b.durationTicks : a.ticks - b.ticks));
     console.log(notes);
