@@ -28,13 +28,6 @@ body {
 .white-key:last-child {
   border-right: 0.5px solid #68767c;
 }
-.white-key.selected {
-  background: red;
-}
-
-.black-key.selected {
-  background: red;
-}
 
 .black-key {
   display: inline-block;
@@ -47,6 +40,22 @@ body {
   position: absolute;
   top: 0;
   margin-left: -8px;
+}
+
+.selected {
+  background: red;
+}
+
+.selected.sustain {
+  background: palevioletred;
+}
+
+.rh-selected {
+  background: green;
+}
+
+.rh-selected.sustain {
+  background: lightgreen;
 }
 
 @media (max-width: 1024px) {

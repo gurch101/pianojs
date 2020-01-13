@@ -1,46 +1,22 @@
 import React from "react";
 import { Midi } from "@tonejs/midi";
 import Slider from "rc-slider";
+import Piano from "./Piano";
 import "rc-slider/assets/index.css";
 import "./App.css";
 import wheresmymind from "./wheresmymind.mid";
+import classNames from "classnames";
 const Soundfont = require("soundfont-player");
-
-const NUM_OCTAVES = 7;
-const KEYS_IN_OCTAVE = 12;
-
-const getColor = keyNumberInOctave =>
-  (keyNumberInOctave <= 5 && keyNumberInOctave % 2 === 1) || (keyNumberInOctave > 5 && keyNumberInOctave % 2 === 0)
-    ? "white"
-    : "black";
 
 const midiNoteToIndex = note => note - 21;
 const indexToMidiNote = idx => idx + 21;
-
-function Piano({ selectedKeys }) {
-  return (
-    <div className="piano">
-      <PianoKey color="white" selected={selectedKeys[0] !== undefined} />
-      <PianoKey color="black" selected={selectedKeys[1] !== undefined} />
-      <PianoKey color="white" selected={selectedKeys[2] !== undefined} />
-      {[...Array(NUM_OCTAVES)].map((val, octaveNum) => {
-        return [...Array(KEYS_IN_OCTAVE)].map((val, idx) => {
-          return (
-            <PianoKey
-              color={getColor(idx + 1)}
-              selected={selectedKeys[octaveNum * KEYS_IN_OCTAVE + idx + 3] !== undefined}
-            />
-          );
-        });
-      })}
-      <PianoKey color="white" selected={selectedKeys[87] !== undefined} />
-    </div>
-  );
-}
-
-const PianoKey = ({ color, selected }) => (
-  <div className={`${color === "black" ? "black-key" : "white-key"} ${selected ? "selected" : ""}`}></div>
-);
+const getNoteClassName = (note, currentTick) => {
+  return classNames({
+    "rh-selected": note.rh,
+    selected: !note.rh,
+    sustain: currentTick > note.ticks
+  });
+};
 
 class App extends React.Component {
   state = {
@@ -51,9 +27,11 @@ class App extends React.Component {
   };
   async componentDidMount() {
     const midi = await Midi.fromUrl(wheresmymind);
-    const notes = [...midi.tracks[0].notes, ...(midi.tracks[1] ? midi.tracks[1].notes : [])];
+    const notes = [
+      ...midi.tracks[0].notes,
+      ...(midi.tracks[1] ? midi.tracks[1].notes : []).map(note => ({ ...note, rh: true }))
+    ];
     notes.sort((a, b) => (a.ticks - b.ticks === 0 ? a.durationTicks - b.durationTicks : a.ticks - b.ticks));
-    console.log(notes);
     this.piano = await Soundfont.instrument(new AudioContext(), "acoustic_grand_piano");
     this.setState({
       midi,
@@ -65,8 +43,8 @@ class App extends React.Component {
     const notes = this.state.notes;
     return notes
       .filter(note => note.ticks === tick || (note.ticks <= tick && note.ticks + note.durationTicks > tick))
-      .map(note => midiNoteToIndex(note.midi))
-      .reduce((acc, curr) => ({ ...acc, [curr]: true }), {});
+      .map(note => ({ rh: note.rh, ticks: note.ticks, key: midiNoteToIndex(note.midi) }))
+      .reduce((acc, curr) => ({ ...acc, [curr.key]: getNoteClassName(curr, tick) }), {});
   };
 
   previous = () => {
@@ -104,6 +82,7 @@ class App extends React.Component {
 
   play = () => {
     Object.keys(this.state.selectedKeys)
+      .filter(note => this.state.selectedKeys[note].indexOf("sustain") < 0)
       .map(note => indexToMidiNote(parseInt(note)))
       .forEach(note => {
         this.piano.play(note);
@@ -131,7 +110,7 @@ class App extends React.Component {
             value={this.state.currentTickIndex}
           />
         </div>
-        <Piano selectedKeys={this.state.selectedKeys} />
+        <Piano keyClassNames={this.state.selectedKeys} />
       </div>
     );
   }
