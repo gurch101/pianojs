@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/pianojs/static/css/main.d4d5d188.chunk.css",
-    "main.js": "/pianojs/static/js/main.b88cdc9f.chunk.js",
-    "main.js.map": "/pianojs/static/js/main.b88cdc9f.chunk.js.map",
+    "main.css": "/pianojs/static/css/main.3fc36b72.chunk.css",
+    "main.js": "/pianojs/static/js/main.1f6e65be.chunk.js",
+    "main.js.map": "/pianojs/static/js/main.1f6e65be.chunk.js.map",
     "runtime-main.js": "/pianojs/static/js/runtime-main.479edd95.js",
     "runtime-main.js.map": "/pianojs/static/js/runtime-main.479edd95.js.map",
     "static/css/2.96479aa2.chunk.css": "/pianojs/static/css/2.96479aa2.chunk.css",
-    "static/js/2.d6e903a7.chunk.js": "/pianojs/static/js/2.d6e903a7.chunk.js",
-    "static/js/2.d6e903a7.chunk.js.map": "/pianojs/static/js/2.d6e903a7.chunk.js.map",
+    "static/js/2.938b4a74.chunk.js": "/pianojs/static/js/2.938b4a74.chunk.js",
+    "static/js/2.938b4a74.chunk.js.map": "/pianojs/static/js/2.938b4a74.chunk.js.map",
     "index.html": "/pianojs/index.html",
-    "precache-manifest.b554f231dfac4c8525451c53ba65b693.js": "/pianojs/precache-manifest.b554f231dfac4c8525451c53ba65b693.js",
+    "precache-manifest.1114cc0779318b8056672f496590dae6.js": "/pianojs/precache-manifest.1114cc0779318b8056672f496590dae6.js",
     "service-worker.js": "/pianojs/service-worker.js",
     "static/css/2.96479aa2.chunk.css.map": "/pianojs/static/css/2.96479aa2.chunk.css.map",
-    "static/css/main.d4d5d188.chunk.css.map": "/pianojs/static/css/main.d4d5d188.chunk.css.map",
-    "static/js/2.d6e903a7.chunk.js.LICENSE": "/pianojs/static/js/2.d6e903a7.chunk.js.LICENSE",
+    "static/css/main.3fc36b72.chunk.css.map": "/pianojs/static/css/main.3fc36b72.chunk.css.map",
+    "static/js/2.938b4a74.chunk.js.LICENSE": "/pianojs/static/js/2.938b4a74.chunk.js.LICENSE",
+    "static/media/hsb.mid": "/pianojs/static/media/hsb.fa434e16.mid",
     "static/media/lacrimosa.mid": "/pianojs/static/media/lacrimosa.a2f5513e.mid",
     "static/media/rachmaninoff.mid": "/pianojs/static/media/rachmaninoff.9302bc1a.mid",
     "static/media/wheresmymind.mid": "/pianojs/static/media/wheresmymind.32304232.mid"
@@ -21,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.479edd95.js",
     "static/css/2.96479aa2.chunk.css",
-    "static/js/2.d6e903a7.chunk.js",
-    "static/css/main.d4d5d188.chunk.css",
-    "static/js/main.b88cdc9f.chunk.js"
+    "static/js/2.938b4a74.chunk.js",
+    "static/css/main.3fc36b72.chunk.css",
+    "static/js/main.1f6e65be.chunk.js"
   ]
 }
