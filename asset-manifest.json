@@ -1,29 +1,30 @@
 {
   "files": {
     "main.css": "/pianojs/static/css/main.3fc36b72.chunk.css",
-    "main.js": "/pianojs/static/js/main.1f6e65be.chunk.js",
-    "main.js.map": "/pianojs/static/js/main.1f6e65be.chunk.js.map",
+    "main.js": "/pianojs/static/js/main.9d2e141c.chunk.js",
+    "main.js.map": "/pianojs/static/js/main.9d2e141c.chunk.js.map",
     "runtime-main.js": "/pianojs/static/js/runtime-main.479edd95.js",
     "runtime-main.js.map": "/pianojs/static/js/runtime-main.479edd95.js.map",
     "static/css/2.96479aa2.chunk.css": "/pianojs/static/css/2.96479aa2.chunk.css",
-    "static/js/2.938b4a74.chunk.js": "/pianojs/static/js/2.938b4a74.chunk.js",
-    "static/js/2.938b4a74.chunk.js.map": "/pianojs/static/js/2.938b4a74.chunk.js.map",
+    "static/js/2.9065ffbe.chunk.js": "/pianojs/static/js/2.9065ffbe.chunk.js",
+    "static/js/2.9065ffbe.chunk.js.map": "/pianojs/static/js/2.9065ffbe.chunk.js.map",
     "index.html": "/pianojs/index.html",
-    "precache-manifest.1114cc0779318b8056672f496590dae6.js": "/pianojs/precache-manifest.1114cc0779318b8056672f496590dae6.js",
+    "precache-manifest.f14e06d108c13af3891934dc7b6a50d5.js": "/pianojs/precache-manifest.f14e06d108c13af3891934dc7b6a50d5.js",
     "service-worker.js": "/pianojs/service-worker.js",
     "static/css/2.96479aa2.chunk.css.map": "/pianojs/static/css/2.96479aa2.chunk.css.map",
     "static/css/main.3fc36b72.chunk.css.map": "/pianojs/static/css/main.3fc36b72.chunk.css.map",
-    "static/js/2.938b4a74.chunk.js.LICENSE": "/pianojs/static/js/2.938b4a74.chunk.js.LICENSE",
+    "static/js/2.9065ffbe.chunk.js.LICENSE": "/pianojs/static/js/2.9065ffbe.chunk.js.LICENSE",
     "static/media/hsb.mid": "/pianojs/static/media/hsb.fa434e16.mid",
     "static/media/lacrimosa.mid": "/pianojs/static/media/lacrimosa.a2f5513e.mid",
     "static/media/rachmaninoff.mid": "/pianojs/static/media/rachmaninoff.9302bc1a.mid",
+    "static/media/strobe.mid": "/pianojs/static/media/strobe.d2493174.mid",
     "static/media/wheresmymind.mid": "/pianojs/static/media/wheresmymind.32304232.mid"
   },
   "entrypoints": [
     "static/js/runtime-main.479edd95.js",
     "static/css/2.96479aa2.chunk.css",
-    "static/js/2.938b4a74.chunk.js",
+    "static/js/2.9065ffbe.chunk.js",
     "static/css/main.3fc36b72.chunk.css",
-    "static/js/main.1f6e65be.chunk.js"
+    "static/js/main.9d2e141c.chunk.js"
   ]
 }

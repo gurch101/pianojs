@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56b181939ec139ff1a41735a4d559e4c",
+    "revision": "d7bf3cdae3e8f8b2aba0051077a1b30f",
     "url": "/pianojs/index.html"
   },
   {
-    "revision": "c73bd13fa71c4bce2a7c",
+    "revision": "19e117bae79ec4cebad2",
     "url": "/pianojs/static/css/2.96479aa2.chunk.css"
   },
   {
-    "revision": "151043ed1d6854e0b95d",
+    "revision": "fd05ad63553f76b3559e",
     "url": "/pianojs/static/css/main.3fc36b72.chunk.css"
   },
   {
-    "revision": "c73bd13fa71c4bce2a7c",
-    "url": "/pianojs/static/js/2.938b4a74.chunk.js"
+    "revision": "19e117bae79ec4cebad2",
+    "url": "/pianojs/static/js/2.9065ffbe.chunk.js"
   },
   {
     "revision": "54b783692fecc6145b89ba7f44eb5a31",
-    "url": "/pianojs/static/js/2.938b4a74.chunk.js.LICENSE"
+    "url": "/pianojs/static/js/2.9065ffbe.chunk.js.LICENSE"
   },
   {
-    "revision": "151043ed1d6854e0b95d",
-    "url": "/pianojs/static/js/main.1f6e65be.chunk.js"
+    "revision": "fd05ad63553f76b3559e",
+    "url": "/pianojs/static/js/main.9d2e141c.chunk.js"
   },
   {
     "revision": "81f59d0ac92ae815f52e",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9302bc1a7af2195d87509441d0be2485",
     "url": "/pianojs/static/media/rachmaninoff.9302bc1a.mid"
+  },
+  {
+    "revision": "d24931747045cbbaca86f903b72b4194",
+    "url": "/pianojs/static/media/strobe.d2493174.mid"
   },
   {
     "revision": "323042321b9de4a20f87ad244033a23e",
