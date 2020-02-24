@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7bf3cdae3e8f8b2aba0051077a1b30f",
+    "revision": "804a5ccda69fcf4f8bd48af33fede4de",
     "url": "/pianojs/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pianojs/static/css/2.96479aa2.chunk.css"
   },
   {
-    "revision": "fd05ad63553f76b3559e",
+    "revision": "54a21e1024e8a0015750",
     "url": "/pianojs/static/css/main.3fc36b72.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pianojs/static/js/2.9065ffbe.chunk.js.LICENSE"
   },
   {
-    "revision": "fd05ad63553f76b3559e",
-    "url": "/pianojs/static/js/main.9d2e141c.chunk.js"
+    "revision": "54a21e1024e8a0015750",
+    "url": "/pianojs/static/js/main.c517a66e.chunk.js"
   },
   {
     "revision": "81f59d0ac92ae815f52e",
