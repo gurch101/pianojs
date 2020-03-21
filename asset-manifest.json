@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pianojs/static/css/main.3fc36b72.chunk.css",
-    "main.js": "/pianojs/static/js/main.c517a66e.chunk.js",
-    "main.js.map": "/pianojs/static/js/main.c517a66e.chunk.js.map",
+    "main.js": "/pianojs/static/js/main.cbc8f9d1.chunk.js",
+    "main.js.map": "/pianojs/static/js/main.cbc8f9d1.chunk.js.map",
     "runtime-main.js": "/pianojs/static/js/runtime-main.479edd95.js",
     "runtime-main.js.map": "/pianojs/static/js/runtime-main.479edd95.js.map",
     "static/css/2.96479aa2.chunk.css": "/pianojs/static/css/2.96479aa2.chunk.css",
     "static/js/2.9065ffbe.chunk.js": "/pianojs/static/js/2.9065ffbe.chunk.js",
     "static/js/2.9065ffbe.chunk.js.map": "/pianojs/static/js/2.9065ffbe.chunk.js.map",
     "index.html": "/pianojs/index.html",
-    "precache-manifest.b621e76ce8e75d5423dc69ce562ed17e.js": "/pianojs/precache-manifest.b621e76ce8e75d5423dc69ce562ed17e.js",
+    "precache-manifest.d1209d8a9b4d2f2b1f807886b736b9d7.js": "/pianojs/precache-manifest.d1209d8a9b4d2f2b1f807886b736b9d7.js",
     "service-worker.js": "/pianojs/service-worker.js",
     "static/css/2.96479aa2.chunk.css.map": "/pianojs/static/css/2.96479aa2.chunk.css.map",
     "static/css/main.3fc36b72.chunk.css.map": "/pianojs/static/css/main.3fc36b72.chunk.css.map",
@@ -25,6 +25,6 @@
     "static/css/2.96479aa2.chunk.css",
     "static/js/2.9065ffbe.chunk.js",
     "static/css/main.3fc36b72.chunk.css",
-    "static/js/main.c517a66e.chunk.js"
+    "static/js/main.cbc8f9d1.chunk.js"
   ]
 }
